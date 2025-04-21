@@ -110,3 +110,10 @@ header h1 a {
     transition: 0.3s;
     width: 45%;
 }
+
+footer {
+    background-color: #5e1211;
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+  }

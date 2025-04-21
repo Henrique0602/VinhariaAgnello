@@ -1,79 +1,85 @@
 * {
-    margin: 0;
+  margin: 0;
 }
-  
+
 ul {
-    padding-inline-start: 0;
+  padding-inline-start: 0;
 }
-  
+
 body {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
-  
+
 header {
-    display: flex;
-    align-items: center;
-    gap: 50px;
-    width: 100%;
-    height: 100px;
-    background-color: #5e1211;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  width: 100%;
+  height: 100px;
+  background-color: #5e1211;
 }
-  
+
 .title_header {
-    display: flex;
-    justify-content: flex-start;
-    width: 400px;
-    font: bold;
-    font-size: 3em;
-    margin-left: 50px;
+  display: flex;
+  justify-content: flex-start;
+  width: 400px;
+  font: bold;
+  font-size: 3em;
+  margin-left: 50px;
 }
 
 header h1 a {
-    text-decoration: none;
-    color: #ffffff;
+  text-decoration: none;
+  color: #ffffff;
 }
-  
+
 .ul_header {
-    display: flex;
-    align-items: center;
-    gap: 50px;
-    list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  list-style: none;
 }
-  
+
 .link_header {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: larger;
-    font: bold;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: larger;
+  font: bold;
 }
-  
+
 .link_header:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .section1 {
-    margin-top: 50px;
-  }
-  
+  margin-top: 50px;
+}
+
 .section1 h1 {
-    display: flex;
-    justify-content: center;
-    color: #5e1211;
-    font-size: 40px;
-    padding: 10px;
-    margin: 20px;
+  display: flex;
+  justify-content: center;
+  color: #5e1211;
+  font-size: 40px;
+  padding: 10px;
+  margin: 20px;
 }
-  
+
 .section1 p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 15px;
-    color: #000;
-    font-size: 15px;
-    padding: 10px;
-    font-family: "Roboto", sans-serif;
-    max-width: 1350px;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  color: #000;
+  font-size: 15px;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  max-width: 1350px;
+  text-align: center;
 }
-  
+
+footer {
+  background-color: #5e1211;
+  width: 100%;
+  height: 100px;
+  margin-top: 50px;
+}
