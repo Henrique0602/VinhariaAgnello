@@ -60,21 +60,82 @@ header h1 a {
   justify-content: center;
   color: #5e1211;
   font-size: 40px;
+  margin-top: -30px;
   padding: 10px;
-  margin: 20px;
+  
 }
 
 .section1 p {
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin-top: 15px;
   color: #000;
-  font-size: 15px;
+  text-align: justify;
+  font-size: 14px;
   padding: 10px;
   font-family: "Roboto", sans-serif;
   max-width: 1350px;
+}
+
+.imagemhistoria {
+  width: 250px;
+  height: 250px;
+  margin-left: 20px;
+  position: relative;
+}
+
+.conteudohistoria {
+  display: flex;
+  justify-content: center;
+}
+
+.divtabela {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.historia {
+  margin-right: 10px;
+}
+
+.historia1 {
+  margin-left: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1.7px solid rgb(230, 214, 214);
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  margin-right: 20px;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+caption {
+  caption-side: bottom;
+  padding: 10px;
+  font-weight: bold;
+}
+
+thead {
+  background-color: #5e1211;
+  color: #ffffff;
+}
+
+th,
+td {
+  border: 0.5px solid rgb(170, 170, 170);
+  padding: 8px 10px;
+}
+
+td:last-of-type {
   text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: rgb(200, 185, 185);
 }
 
 footer {
