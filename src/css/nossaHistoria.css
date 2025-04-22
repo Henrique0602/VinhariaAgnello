@@ -138,6 +138,33 @@ tbody > tr:nth-of-type(even) {
   background-color: rgb(200, 185, 185);
 }
 
+.botao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 20px;
+}
+
+.botao a {
+  text-decoration: none;
+  color: #831d1c;
+}
+
+.botao:hover {
+    background-color: #831d1c;
+    transition: 0.3s;
+}
+
+.botao:hover a {
+    color: white;
+    transition: 0.3s;
+}
+
 footer {
   background-color: #5e1211;
   width: 100%;

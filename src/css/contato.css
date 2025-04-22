@@ -165,11 +165,21 @@ footer {
   color: #ffffff;
   font-size: medium;
   border: none;
+  cursor: pointer;
 }
 
 .input_txar_bt_fomrulario {
   display: flex;
-  justify-content: start;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start; 
+  width: 400px;
+  gap: 10px;
+}
+
+.input_txar_bt_fomrulario label {
+  font-weight: bold;
+  color: #5c0a0a;
+  margin-bottom: 4px;
+  text-align: left;
+  width: 100%; 
 }
