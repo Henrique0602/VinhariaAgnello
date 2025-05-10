@@ -1,0 +1,49 @@
+
+.botao:hover {
+  background-color: #831d1c;
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+
+.botao:hover a {
+    color: white;
+    transition: 0.3s;
+}
+
+.link_header:hover {
+  text-decoration: underline;
+}
+
+
+.img_galeria:hover {
+  transition: 0.3s;
+  box-shadow: -10px 10px 15px rgb(109, 103, 103);
+}
+
+.button_formulario:focus {
+  transform: scale(1.02);
+  box-shadow: 0 0 0 3px rgb(116, 1, 1); 
+  
+}
+
+.input_txar_bt_fomrulario input:focus{
+  transform: scale(1.02);
+  
+}
+
+.input_txar_bt_fomrulario textarea:focus{
+  transform: scale(1.02);
+  
+}
+
+.ul_header li:nth-child(1) a {
+  color: #b22222; 
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.title_header a::first-letter {
+  color: #b22222;
+  font-weight: bold;
+}

@@ -1,3 +1,4 @@
+@import url('./efeitos.css');
 * {
   margin: 0;
 }
@@ -122,7 +123,6 @@ header h1 a {
     gap: 20px;
 }
 
-
 .botao {
   display: flex;
   justify-content: center;
@@ -138,16 +138,6 @@ header h1 a {
 .botao a {
   text-decoration: none;
   color: #831d1c;
-}
-
-.botao:hover {
-    background-color: #831d1c;
-    transition: 0.3s;
-}
-
-.botao:hover a {
-    color: white;
-    transition: 0.3s;
 }
 
 .galeria {
@@ -204,3 +194,4 @@ footer {
   height: 100px;
   margin-top: 50px;
 }
+

@@ -1,3 +1,4 @@
+@import url('efeitos.css');
 * {
   margin: 0;
 }
@@ -51,9 +52,6 @@ header h1 a {
   font: bold;
 }
 
-.link_header:hover {
-  text-decoration: underline;
-}
 
 .subTitle_body {
   display: flex;
@@ -84,10 +82,7 @@ header h1 a {
   border-radius: 5%;
 }
 
-.img_galeria:hover {
-  transition: 0.3s;
-  box-shadow: -10px 10px 15px rgb(109, 103, 103);
-}
+
 
 .galeria_container {
   display: flex;
@@ -103,3 +98,4 @@ footer {
   height: 100px;
   margin-top: 50px;
 }
+
