@@ -47,3 +47,23 @@
   color: #b22222;
   font-weight: bold;
 }
+
+
+.mainContent_body::selection {
+  background-color: #5e1211;  
+  color: white;              
+  transition: background-color 0.2s ease, color 0.2s ease; 
+ }
+
+.section1::selection{
+    background-color: #5e1211;  
+  color: white;              
+  transition: background-color 0.2s ease, color 0.2s ease; 
+}
+
+.ProdutosOficiais::selection{
+    background-color: #5e1211;  
+  color: white;              
+  transition: background-color 0.2s ease, color 0.2s ease; 
+}
+
