@@ -48,6 +48,11 @@
   font-weight: bold;
 }
 
+.title_header::selection{
+  background-color: #5e1211;  
+  color: white;              
+  transition: background-color 0.2s ease, color 0.2s ease; 
+}
 
 .mainContent_body::selection {
   background-color: #5e1211;  
@@ -67,3 +72,31 @@
   transition: background-color 0.2s ease, color 0.2s ease; 
 }
 
+.title_container::selection{
+  background-color: #5e1211;  
+  color: white;              
+  transition: background-color 0.2s ease, color 0.2s ease; 
+}
+.img_p_equipe::selection{
+    background-color: #5e1211;  
+  color: white;              
+  transition: background-color 0.2s ease, color 0.2s ease; 
+}
+
+.formulario_container::selection{
+  background-color: #5e1211;  
+  color: white;              
+  transition: background-color 0.2s ease, color 0.2s ease; 
+}
+
+.galeria_container::selection{
+  background-color: #5e1211;  
+  color: white;              
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.subTitle_body::selection{
+  background-color: #5e1211;  
+  color: white;              
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
