@@ -48,12 +48,6 @@
   font-weight: bold;
 }
 
-.title_header::selection{
-  background-color: #5e1211;  
-  color: white;              
-  transition: background-color 0.2s ease, color 0.2s ease; 
-}
-
 .mainContent_body::selection {
   background-color: #5e1211;  
   color: white;              
@@ -89,7 +83,7 @@
   transition: background-color 0.2s ease, color 0.2s ease; 
 }
 
-.galeria_container::selection{
+.galeria_container .img_galeria::selection{
   background-color: #5e1211;  
   color: white;              
   transition: background-color 0.2s ease, color 0.2s ease;
@@ -100,3 +94,28 @@
   color: white;              
   transition: background-color 0.2s ease, color 0.2s ease;
 }
+
+.section1 .titulo1::selection{
+  background-color: #5e1211;  
+  color: white;              
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.section1 p::selection{
+  background-color: #5e1211;  
+  color: white;              
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.section1 h3::selection{
+  background-color: #5e1211;  
+  color: white;              
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.section1 img::selection{
+  background-color: #5e1211;  
+  color: white;              
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
